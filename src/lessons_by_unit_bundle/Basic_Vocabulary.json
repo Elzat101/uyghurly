@@ -1,0 +1,464 @@
+[
+  {
+    "Unit": "Basic Vocabulary",
+    "Lesson Title": "Animal Vocabulary",
+    "Uyghur": "at",
+    "English": "Horse",
+    "Definition": "horse"
+  },
+  {
+    "Unit": "Basic Vocabulary",
+    "Lesson Title": "Animal Vocabulary",
+    "Uyghur": "it (pronounced isht)",
+    "English": "Dog",
+    "Definition": "dog"
+  },
+  {
+    "Unit": "Basic Vocabulary",
+    "Lesson Title": "Animal Vocabulary",
+    "Uyghur": "kala",
+    "English": "Bovine",
+    "Definition": "cow, ox, bovine"
+  },
+  {
+    "Unit": "Basic Vocabulary",
+    "Lesson Title": "Animal Vocabulary",
+    "Uyghur": "toxu (toxuyum, toxusi)",
+    "English": "Chicken",
+    "Definition": "chicken"
+  },
+  {
+    "Unit": "Basic Vocabulary",
+    "Lesson Title": "Basic Verbs",
+    "Uyghur": "angla",
+    "English": "Listen",
+    "Definition": "listen, hear"
+  },
+  {
+    "Unit": "Basic Vocabulary",
+    "Lesson Title": "Basic Verbs",
+    "Uyghur": "apar",
+    "English": "Take Along",
+    "Definition": "take away, take along (< elip bar- ‘take+go’) apëlsin"
+  },
+  {
+    "Unit": "Basic Vocabulary",
+    "Lesson Title": "Basic Verbs",
+    "Uyghur": "apirip ber",
+    "English": "Give",
+    "Definition": "take (for another’s benefit)"
+  },
+  {
+    "Unit": "Basic Vocabulary",
+    "Lesson Title": "Basic Verbs",
+    "Uyghur": "aylan",
+    "English": "Revolve",
+    "Definition": "revolve, go round; wander, tour; change, turn (into) Aynur"
+  },
+  {
+    "Unit": "Basic Vocabulary",
+    "Lesson Title": "Basic Verbs",
+    "Uyghur": "baghla",
+    "English": "Bind",
+    "Definition": "tie up, bind"
+  },
+  {
+    "Unit": "Basic Vocabulary",
+    "Lesson Title": "Basic Verbs",
+    "Uyghur": "baq",
+    "English": "Nurture",
+    "Definition": "nurture, bring up, rear; (aux.) attempt to, do a little bar- (barmaq, bërish) [+GA]"
+  },
+  {
+    "Unit": "Basic Vocabulary",
+    "Lesson Title": "Basic Verbs",
+    "Uyghur": "bashla",
+    "English": "Begin",
+    "Definition": "start, begin"
+  },
+  {
+    "Unit": "Basic Vocabulary",
+    "Lesson Title": "Basic Verbs",
+    "Uyghur": "bashlan",
+    "English": "Start",
+    "Definition": "begin, start; be lead"
+  },
+  {
+    "Unit": "Basic Vocabulary",
+    "Lesson Title": "Basic Verbs",
+    "Uyghur": "bëkit",
+    "English": "Attach",
+    "Definition": "attach; fix up, arrange"
+  },
+  {
+    "Unit": "Basic Vocabulary",
+    "Lesson Title": "Basic Verbs pt2",
+    "Uyghur": "bil",
+    "English": "Understand",
+    "Definition": "know, understand"
+  },
+  {
+    "Unit": "Basic Vocabulary",
+    "Lesson Title": "Basic Verbs pt2",
+    "Uyghur": "bol",
+    "English": "Become",
+    "Definition": "become, be; be possible, permissible; (aux.) completion, accomplishment"
+  },
+  {
+    "Unit": "Basic Vocabulary",
+    "Lesson Title": "Basic Verbs pt2",
+    "Uyghur": "böl",
+    "English": "Divide",
+    "Definition": "divide, partition; sever; share"
+  },
+  {
+    "Unit": "Basic Vocabulary",
+    "Lesson Title": "Basic Verbs pt2",
+    "Uyghur": "buzulush",
+    "English": "Destroy",
+    "Definition": "be broken, destroyed, damaged, ruined; go bad, be corrupted bügün"
+  },
+  {
+    "Unit": "Basic Vocabulary",
+    "Lesson Title": "Basic Verbs pt2",
+    "Uyghur": "chach",
+    "English": "Scatter",
+    "Definition": "scatter, spill out, dissipate, emit"
+  },
+  {
+    "Unit": "Basic Vocabulary",
+    "Lesson Title": "Basic Verbs pt2",
+    "Uyghur": "chiq",
+    "English": "Emerge",
+    "Definition": "emerge, ascend; exit, leave; be acquired; blow (wind); (aux.) thoroughness"
+  },
+  {
+    "Unit": "Basic Vocabulary",
+    "Lesson Title": "Basic Verbs pt2",
+    "Uyghur": "chüsh",
+    "English": "Descend",
+    "Definition": "descend, fall, go down, drop, get off, leave, finish, be built, accommodate"
+  },
+  {
+    "Unit": "Basic Vocabulary",
+    "Lesson Title": "Basic Verbs pt2",
+    "Uyghur": "dawamlash",
+    "English": "Continue",
+    "Definition": "last, continue"
+  },
+  {
+    "Unit": "Basic Vocabulary",
+    "Lesson Title": "Basic Verbs pt2",
+    "Uyghur": "de",
+    "English": "Speak",
+    "Definition": "say, speak; (aux.) quotative"
+  },
+  {
+    "Unit": "Basic Vocabulary",
+    "Lesson Title": "Basic Verbs pt2",
+    "Uyghur": "echüsh",
+    "English": "Alight",
+    "Definition": "bring down, take and alight, bring off (< ëlip chüsh-) edebiyat"
+  },
+  {
+    "Unit": "Basic Vocabulary",
+    "Lesson Title": "Body Parts",
+    "Uyghur": "bash",
+    "English": "Head",
+    "Definition": "head, top; beginning; chief, leader"
+  },
+  {
+    "Unit": "Basic Vocabulary",
+    "Lesson Title": "Body Parts",
+    "Uyghur": "beden",
+    "English": "Body",
+    "Definition": "human body; constitution"
+  },
+  {
+    "Unit": "Basic Vocabulary",
+    "Lesson Title": "Body Parts",
+    "Uyghur": "burun",
+    "English": "Nose",
+    "Definition": "before, earlier [+Din]; prior, previous; nose"
+  },
+  {
+    "Unit": "Basic Vocabulary",
+    "Lesson Title": "Body Parts",
+    "Uyghur": "ëghiz (aghzim, aghzi)",
+    "English": "Mouth",
+    "Definition": "mouth, opening; mouthful, room of"
+  },
+  {
+    "Unit": "Basic Vocabulary",
+    "Lesson Title": "Body Parts",
+    "Uyghur": "jiger",
+    "English": "Liver",
+    "Definition": "liver"
+  },
+  {
+    "Unit": "Basic Vocabulary",
+    "Lesson Title": "Body Parts",
+    "Uyghur": "köz",
+    "English": "Eye",
+    "Definition": "eye, eyes"
+  },
+  {
+    "Unit": "Basic Vocabulary",
+    "Lesson Title": "Body Parts",
+    "Uyghur": "musht (pronounced mush)",
+    "English": "Fist",
+    "Definition": "fist, punch"
+  },
+  {
+    "Unit": "Basic Vocabulary",
+    "Lesson Title": "Body Parts",
+    "Uyghur": "til",
+    "English": "Tongue",
+    "Definition": "tongue; language"
+  },
+  {
+    "Unit": "Basic Vocabulary",
+    "Lesson Title": "Clothes and Accessories",
+    "Uyghur": "ayagh",
+    "English": "Shoe",
+    "Definition": "shoe, pair of shoes; foot; leg; base, end"
+  },
+  {
+    "Unit": "Basic Vocabulary",
+    "Lesson Title": "Clothes and Accessories",
+    "Uyghur": "chapan",
+    "English": "Jacket",
+    "Definition": "jacket, light coat; caftan"
+  },
+  {
+    "Unit": "Basic Vocabulary",
+    "Lesson Title": "Clothes and Accessories",
+    "Uyghur": "doppa",
+    "English": "Skullcap",
+    "Definition": "skullcap"
+  },
+  {
+    "Unit": "Basic Vocabulary",
+    "Lesson Title": "Clothes and Accessories",
+    "Uyghur": "ishtan",
+    "English": "Trousers",
+    "Definition": "trousers"
+  },
+  {
+    "Unit": "Basic Vocabulary",
+    "Lesson Title": "Clothes and Accessories",
+    "Uyghur": "kepke",
+    "English": "Cap",
+    "Definition": "billed flat cap"
+  },
+  {
+    "Unit": "Basic Vocabulary",
+    "Lesson Title": "Clothes and Accessories",
+    "Uyghur": "kiyim",
+    "English": "Clothing",
+    "Definition": "clothing, garments"
+  },
+  {
+    "Unit": "Basic Vocabulary",
+    "Lesson Title": "Clothes and Accessories",
+    "Uyghur": "kiyim-këqek",
+    "English": "Attire",
+    "Definition": "clothing and personal attire, apparel"
+  },
+  {
+    "Unit": "Basic Vocabulary",
+    "Lesson Title": "Clothes and Accessories",
+    "Uyghur": "popayka",
+    "English": "Sweater",
+    "Definition": "sweater, jumper, cardigan"
+  },
+  {
+    "Unit": "Basic Vocabulary",
+    "Lesson Title": "Clothes and Accessories",
+    "Uyghur": "somka",
+    "English": "Bag",
+    "Definition": "bag, handbag, briefcase, shopping bag"
+  },
+  {
+    "Unit": "Basic Vocabulary",
+    "Lesson Title": "Clothes and Accessories",
+    "Uyghur": "yanchuq",
+    "English": "Pocket",
+    "Definition": "pocket (in garment)"
+  },
+  {
+    "Unit": "Basic Vocabulary",
+    "Lesson Title": "Clothes and Accessories",
+    "Uyghur": "yung",
+    "English": "Wool",
+    "Definition": "wool, fleece; woolen"
+  },
+  {
+    "Unit": "Basic Vocabulary",
+    "Lesson Title": "Conflict and Resolution",
+    "Uyghur": "aware qilma",
+    "English": "dont bother",
+    "Definition": "phrase used to tell another person that their effort is unncessary"
+  },
+  {
+    "Unit": "Basic Vocabulary",
+    "Lesson Title": "Conflict and Resolution",
+    "Uyghur": "chataq",
+    "English": "Problem",
+    "Definition": "problem, trouble, nuisance; lateral branch; Too bad!"
+  },
+  {
+    "Unit": "Basic Vocabulary",
+    "Lesson Title": "Conflict and Resolution",
+    "Uyghur": "soqush",
+    "English": "Conflict",
+    "Definition": "argue; hit each other; be at war; crash, collide"
+  },
+  {
+    "Unit": "Basic Vocabulary",
+    "Lesson Title": "Conflict and Resolution",
+    "Uyghur": "tenqid qil",
+    "English": "Discipline",
+    "Definition": "reprimand, discipline"
+  },
+  {
+    "Unit": "Basic Vocabulary",
+    "Lesson Title": "Expressing Opinions",
+    "Uyghur": "közqarash",
+    "English": "Opinion",
+    "Definition": "viewpoint, opinion"
+  },
+  {
+    "Unit": "Basic Vocabulary",
+    "Lesson Title": "Expressing Opinions",
+    "Uyghur": "mëningche",
+    "English": "Perspective",
+    "Definition": "in my view, according to me"
+  },
+  {
+    "Unit": "Basic Vocabulary",
+    "Lesson Title": "Expressing Opinions",
+    "Uyghur": "pikir (pikrim, pikri)",
+    "English": "Idea",
+    "Definition": "idea, thought; opinion, viewpoint"
+  },
+  {
+    "Unit": "Basic Vocabulary",
+    "Lesson Title": "Expressing Opinions",
+    "Uyghur": "sizningche",
+    "English": "Your View",
+    "Definition": "in your view, according to you"
+  },
+  {
+    "Unit": "Basic Vocabulary",
+    "Lesson Title": "Greetings and Introductions",
+    "Uyghur": "salam",
+    "English": "Greeting",
+    "Definition": "greetings, salutations, regards; Hello!"
+  },
+  {
+    "Unit": "Basic Vocabulary",
+    "Lesson Title": "Greetings and Introductions",
+    "Uyghur": "salam ber",
+    "English": "Salutation",
+    "Definition": "pass on greetings"
+  },
+  {
+    "Unit": "Basic Vocabulary",
+    "Lesson Title": "Greetings and Introductions",
+    "Uyghur": "teklip qil",
+    "English": "Invitation",
+    "Definition": "invite"
+  },
+  {
+    "Unit": "Basic Vocabulary",
+    "Lesson Title": "Greetings and Introductions",
+    "Uyghur": "tonushtur",
+    "English": "Introduction",
+    "Definition": "introduce"
+  },
+  {
+    "Unit": "Basic Vocabulary",
+    "Lesson Title": "Greetings and Introductions",
+    "Uyghur": "xosh",
+    "English": "Goodbye",
+    "Definition": "Goodbye! Cheers; enough, all right; pleasure, satisfaction Xoten"
+  },
+  {
+    "Unit": "Basic Vocabulary",
+    "Lesson Title": "Greetings and Introductions",
+    "Uyghur": "yaxshimusiz",
+    "English": "Hello",
+    "Definition": "Hello! How do you do? How are you?"
+  },
+  {
+    "Unit": "Basic Vocabulary",
+    "Lesson Title": "Personal Hygiene Items",
+    "Uyghur": "hajetxana",
+    "English": "Toilet",
+    "Definition": "toilet, lavatory, W.C., washroom"
+  },
+  {
+    "Unit": "Basic Vocabulary",
+    "Lesson Title": "Personal Hygiene Items",
+    "Uyghur": "taziliq",
+    "English": "Hygiene",
+    "Definition": "cleanliness, hygiene"
+  },
+  {
+    "Unit": "Basic Vocabulary",
+    "Lesson Title": "Personal Hygiene Items",
+    "Uyghur": "yuyush",
+    "English": "Clean",
+    "Definition": "wash, launder"
+  },
+  {
+    "Unit": "Basic Vocabulary",
+    "Lesson Title": "Talking About the Past",
+    "Uyghur": "awwal",
+    "English": "Before",
+    "Definition": "before, prior, previous; beforehand, formerly"
+  },
+  {
+    "Unit": "Basic Vocabulary",
+    "Lesson Title": "Talking About the Past",
+    "Uyghur": "bultur",
+    "English": "Last Year",
+    "Definition": "last year"
+  },
+  {
+    "Unit": "Basic Vocabulary",
+    "Lesson Title": "Talking About the Past",
+    "Uyghur": "buyan [+Din]",
+    "English": "Since",
+    "Definition": "since, ever since"
+  },
+  {
+    "Unit": "Basic Vocabulary",
+    "Lesson Title": "Talking About the Past",
+    "Uyghur": "emdi",
+    "English": "Recently",
+    "Definition": "just now, recently, so now"
+  },
+  {
+    "Unit": "Basic Vocabulary",
+    "Lesson Title": "Talking About the Past",
+    "Uyghur": "ötken",
+    "English": "Past",
+    "Definition": "past, previous, last"
+  },
+  {
+    "Unit": "Basic Vocabulary",
+    "Lesson Title": "Talking About the Past",
+    "Uyghur": "tünügün",
+    "English": "Yesterday",
+    "Definition": "yesterday"
+  },
+  {
+    "Unit": "Basic Vocabulary",
+    "Lesson Title": "Talking About the Past",
+    "Uyghur": "yëngiraqta",
+    "English": "Just Now",
+    "Definition": "just (now), recently"
+  }
+]

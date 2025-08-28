@@ -1,0 +1,129 @@
+{
+  "units": [
+    {
+      "id": "basics",
+      "title": "Basics",
+      "description": "Learn the fundamentals of Uyghur language",
+      "lessons": [
+        "common-phrases-for-daily-use",
+        "common-phrases-for-daily-use-pt2",
+        "common-questions-and-responses",
+        "common-questions-and-responses-pt2",
+        "days-of-the-week",
+        "evening-and-bedtime-words",
+        "months-and-seasons",
+        "numbers",
+        "numbers-pt2",
+        "pronouns-and-people-words"
+      ]
+    },
+    {
+      "id": "people",
+      "title": "People",
+      "description": "Vocabulary for describing people and relationships",
+      "lessons": [
+        "family-members",
+        "family-members-pt2",
+        "people-and-relationships",
+        "people-and-relationships-pt2"
+      ]
+    },
+    {
+      "id": "describing",
+      "title": "Describing",
+      "description": "Learn how to describe people, places, and things",
+      "lessons": [
+        "colors",
+        "colors-pt2",
+        "describing-people",
+        "describing-people-pt2",
+        "describing-things",
+        "describing-things-pt2"
+      ]
+    },
+    {
+      "id": "daily_life",
+      "title": "Daily Life",
+      "description": "Essential phrases and vocabulary for everyday situations",
+      "lessons": [
+        "daily-activities",
+        "daily-activities-pt2",
+        "daily-routine",
+        "daily-routine-pt2"
+      ]
+    },
+    {
+      "id": "home",
+      "title": "Home",
+      "description": "Vocabulary for home and household items",
+      "lessons": [
+        "household-items",
+        "household-items-pt2",
+        "rooms-in-the-house",
+        "rooms-in-the-house-pt2"
+      ]
+    },
+    {
+      "id": "school",
+      "title": "School",
+      "description": "School and education-related vocabulary",
+      "lessons": [
+        "school-supplies",
+        "school-and-classroom-words",
+        "school-and-classroom-words-pt2"
+      ]
+    },
+    {
+      "id": "food",
+      "title": "Food",
+      "description": "Food-related vocabulary and phrases",
+      "lessons": ["food-and-drinks", "food-and-drinks-pt2", "uyghur-foods"]
+    },
+    {
+      "id": "shopping",
+      "title": "Shopping and Money",
+      "description": "Learn about shopping and financial terms",
+      "lessons": [
+        "at-the-bank",
+        "at-the-market",
+        "shopping-and-money",
+        "shopping-and-money-pt2"
+      ]
+    },
+    {
+      "id": "health",
+      "title": "Health",
+      "description": "Health and medical vocabulary",
+      "lessons": [
+        "body-parts",
+        "body-parts-pt2",
+        "health-and-medical",
+        "health-and-medical-pt2"
+      ]
+    },
+    {
+      "id": "travel",
+      "title": "Travel",
+      "description": "Travel-related vocabulary and phrases",
+      "lessons": [
+        "directions-and-locations",
+        "directions-and-locations-pt2",
+        "places-around-town",
+        "places-around-town-pt2",
+        "travel-and-transportation",
+        "travel-and-transportation-pt2"
+      ]
+    },
+    {
+      "id": "nature",
+      "title": "Nature and Environment",
+      "description": "Learn about nature and environmental terms",
+      "lessons": [
+        "animals",
+        "animals-pt2",
+        "nature-and-environment",
+        "nature-and-environment-pt2"
+      ]
+    }
+  ]
+}

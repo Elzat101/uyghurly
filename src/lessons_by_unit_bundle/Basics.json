@@ -1,0 +1,569 @@
+[
+  {
+    "Unit": "Basics",
+    "Lesson Title": "Common Phrases for Daily Use",
+    "Uyghur": "amal",
+    "English": "Solution",
+    "Definition": "resource, way out, method"
+  },
+  {
+    "Unit": "Basics",
+    "Lesson Title": "Common Phrases for Daily Use",
+    "Uyghur": "amalsiz",
+    "English": "No Choice",
+    "Definition": "without recourse, with no choice"
+  },
+  {
+    "Unit": "Basics",
+    "Lesson Title": "Common Phrases for Daily Use",
+    "Uyghur": "anche",
+    "English": "Not Much",
+    "Definition": "(not) very, (not) much (used only with negative)"
+  },
+  {
+    "Unit": "Basics",
+    "Lesson Title": "Common Phrases for Daily Use",
+    "Uyghur": "anche-munche",
+    "English": "not much",
+    "Definition": "more or less, somewhat, occasionally, at times andin këyin"
+  },
+  {
+    "Unit": "Basics",
+    "Lesson Title": "Common Phrases for Daily Use",
+    "Uyghur": "ariyet elish",
+    "English": "Borrow",
+    "Definition": "borrow"
+  },
+  {
+    "Unit": "Basics",
+    "Lesson Title": "Common Phrases for Daily Use",
+    "Uyghur": "ariyet berish",
+    "English": "Lend",
+    "Definition": "lend"
+  },
+  {
+    "Unit": "Basics",
+    "Lesson Title": "Common Phrases for Daily Use",
+    "Uyghur": "bilen",
+    "English": "With",
+    "Definition": "with, by, about"
+  },
+  {
+    "Unit": "Basics",
+    "Lesson Title": "Common Phrases for Daily Use",
+    "Uyghur": "biraq",
+    "English": "However",
+    "Definition": "but, however"
+  },
+  {
+    "Unit": "Basics",
+    "Lesson Title": "Common Phrases for Daily Use",
+    "Uyghur": "birge",
+    "English": "Together",
+    "Definition": "together, united"
+  },
+  {
+    "Unit": "Basics",
+    "Lesson Title": "Common Phrases for Daily Use",
+    "Uyghur": "choqum",
+    "English": "Certainly",
+    "Definition": "certainly, undoubtedly, definite, for sure"
+  },
+  {
+    "Unit": "Basics",
+    "Lesson Title": "Common Phrases for Daily Use pt2",
+    "Uyghur": "chünki",
+    "English": "Because",
+    "Definition": "because"
+  },
+  {
+    "Unit": "Basics",
+    "Lesson Title": "Common Phrases for Daily Use pt2",
+    "Uyghur": "di'alog",
+    "English": "Conversation",
+    "Definition": "dialogue, conversation"
+  },
+  {
+    "Unit": "Basics",
+    "Lesson Title": "Common Phrases for Daily Use pt2",
+    "Uyghur": "diqqet qil",
+    "English": "Be Alert",
+    "Definition": "take care, pay attention, be alert"
+  },
+  {
+    "Unit": "Basics",
+    "Lesson Title": "Common Phrases for Daily Use pt2",
+    "Uyghur": "emise",
+    "English": "Then",
+    "Definition": "then, if that is so, in that case"
+  },
+  {
+    "Unit": "Basics",
+    "Lesson Title": "Common Phrases for Daily Use pt2",
+    "Uyghur": "emma",
+    "English": "But",
+    "Definition": "but"
+  },
+  {
+    "Unit": "Basics",
+    "Lesson Title": "Common Phrases for Daily Use pt2",
+    "Uyghur": "ene",
+    "English": "Look There",
+    "Definition": "look there!, hey look at that!"
+  },
+  {
+    "Unit": "Basics",
+    "Lesson Title": "Common Phrases for Daily Use pt2",
+    "Uyghur": "gep",
+    "English": "Speech",
+    "Definition": "talk, words, speech"
+  },
+  {
+    "Unit": "Basics",
+    "Lesson Title": "Common Phrases for Daily Use pt2",
+    "Uyghur": "hajet",
+    "English": "Need",
+    "Definition": "need, necessity, urge"
+  },
+  {
+    "Unit": "Basics",
+    "Lesson Title": "Common Phrases for Daily Use pt2",
+    "Uyghur": "he",
+    "English": "Oh",
+    "Definition": "oh! ah!"
+  },
+  {
+    "Unit": "Basics",
+    "Lesson Title": "Common Phrases for Daily Use pt2",
+    "Uyghur": "hëchqisi yoq",
+    "English": "You're Welcome",
+    "Definition": "don't mention it, you're welcome (~hëch gep yoq) hede"
+  },
+  {
+    "Unit": "Basics",
+    "Lesson Title": "Common Questions and Responses",
+    "Uyghur": "chüshendür",
+    "English": "Explain",
+    "Definition": "explain"
+  },
+  {
+    "Unit": "Basics",
+    "Lesson Title": "Common Questions and Responses",
+    "Uyghur": "jawab",
+    "English": "Reply",
+    "Definition": "answer, reply"
+  },
+  {
+    "Unit": "Basics",
+    "Lesson Title": "Common Questions and Responses",
+    "Uyghur": "ne",
+    "English": "What",
+    "Definition": "what?"
+  },
+  {
+    "Unit": "Basics",
+    "Lesson Title": "Common Questions and Responses",
+    "Uyghur": "nechche",
+    "English": "How Many",
+    "Definition": "how much? how many? few"
+  },
+  {
+    "Unit": "Basics",
+    "Lesson Title": "Common Questions and Responses",
+    "Uyghur": "nede (< ne + DA)",
+    "English": "Where",
+    "Definition": "where at?"
+  },
+  {
+    "Unit": "Basics",
+    "Lesson Title": "Common Questions and Responses",
+    "Uyghur": "nedin (ne 'what' +Din)",
+    "English": "From Where",
+    "Definition": "A phrase that asks or shows the place something comes from."
+  },
+  {
+    "Unit": "Basics",
+    "Lesson Title": "Common Questions and Responses",
+    "Uyghur": "nege (< ne + GA)",
+    "English": "Where To",
+    "Definition": "where to?"
+  },
+  {
+    "Unit": "Basics",
+    "Lesson Title": "Common Questions and Responses pt2",
+    "Uyghur": "nelik",
+    "English": "Origin",
+    "Definition": "person from where?"
+  },
+  {
+    "Unit": "Basics",
+    "Lesson Title": "Common Questions and Responses pt2",
+    "Uyghur": "nëmishqa (< nëme ish +GA)",
+    "English": "Why",
+    "Definition": "why, for what reason?"
+  },
+  {
+    "Unit": "Basics",
+    "Lesson Title": "Common Questions and Responses pt2",
+    "Uyghur": "qandaq",
+    "English": "How",
+    "Definition": "how; what kind of"
+  },
+  {
+    "Unit": "Basics",
+    "Lesson Title": "Common Questions and Responses pt2",
+    "Uyghur": "qandaqraq",
+    "English": "Like what",
+    "Definition": "like what?"
+  },
+  {
+    "Unit": "Basics",
+    "Lesson Title": "Common Questions and Responses pt2",
+    "Uyghur": "qaysi",
+    "English": "Which",
+    "Definition": "which?"
+  },
+  {
+    "Unit": "Basics",
+    "Lesson Title": "Common Questions and Responses pt2",
+    "Uyghur": "so'al",
+    "English": "Question",
+    "Definition": "question"
+  },
+  {
+    "Unit": "Basics",
+    "Lesson Title": "Common Questions and Responses pt2",
+    "Uyghur": "sora",
+    "English": "Ask",
+    "Definition": "ask, inquire, request"
+  },
+  {
+    "Unit": "Basics",
+    "Lesson Title": "Days of the Week",
+    "Uyghur": "charshenbe",
+    "English": "Wednesday",
+    "Definition": "Wednesday"
+  },
+  {
+    "Unit": "Basics",
+    "Lesson Title": "Days of the Week",
+    "Uyghur": "düshenbe",
+    "English": "Monday",
+    "Definition": "Monday"
+  },
+  {
+    "Unit": "Basics",
+    "Lesson Title": "Days of the Week",
+    "Uyghur": "hepte",
+    "English": "Week",
+    "Definition": "week"
+  },
+  {
+    "Unit": "Basics",
+    "Lesson Title": "Days of the Week",
+    "Uyghur": "jüme",
+    "English": "Friday",
+    "Definition": "Friday"
+  },
+  {
+    "Unit": "Basics",
+    "Lesson Title": "Days of the Week",
+    "Uyghur": "kün",
+    "English": "Day",
+    "Definition": "day; sun"
+  },
+  {
+    "Unit": "Basics",
+    "Lesson Title": "Days of the Week",
+    "Uyghur": "peyshenbe",
+    "English": "Thursday",
+    "Definition": "Thursday"
+  },
+  {
+    "Unit": "Basics",
+    "Lesson Title": "Days of the Week",
+    "Uyghur": "seyshenbe",
+    "English": "Tuesday",
+    "Definition": "Tuesday"
+  },
+  {
+    "Unit": "Basics",
+    "Lesson Title": "Days of the Week",
+    "Uyghur": "shenbe (pronounced shembe)",
+    "English": "Saturday",
+    "Definition": "Saturday"
+  },
+  {
+    "Unit": "Basics",
+    "Lesson Title": "Days of the Week",
+    "Uyghur": "yekshenbe",
+    "English": "Sunday",
+    "Definition": "Sunday"
+  },
+  {
+    "Unit": "Basics",
+    "Lesson Title": "Evening and Bedtime Words",
+    "Uyghur": "axsham",
+    "English": "Last night",
+    "Definition": "last night, evening"
+  },
+  {
+    "Unit": "Basics",
+    "Lesson Title": "Evening and Bedtime Words",
+    "Uyghur": "kech (pronounced kesh)",
+    "English": "Evening",
+    "Definition": "evening, dusk; late; tardy"
+  },
+  {
+    "Unit": "Basics",
+    "Lesson Title": "Evening and Bedtime Words",
+    "Uyghur": "këche",
+    "English": "Night",
+    "Definition": "night; period from bedtime until next morning"
+  },
+  {
+    "Unit": "Basics",
+    "Lesson Title": "Evening and Bedtime Words",
+    "Uyghur": "uxla",
+    "English": "Sleep",
+    "Definition": "sleep"
+  },
+  {
+    "Unit": "Basics",
+    "Lesson Title": "Evening and Bedtime Words",
+    "Uyghur": "yat",
+    "English": "Lie Down",
+    "Definition": "lie down"
+  },
+  {
+    "Unit": "Basics",
+    "Lesson Title": "Months and Seasons",
+    "Uyghur": "ay",
+    "English": "Month/Moon",
+    "Definition": "month; moon"
+  },
+  {
+    "Unit": "Basics",
+    "Lesson Title": "Months and Seasons",
+    "Uyghur": "bahar",
+    "English": "Spring",
+    "Definition": "spring; late spring; sprouting season"
+  },
+  {
+    "Unit": "Basics",
+    "Lesson Title": "Months and Seasons",
+    "Uyghur": "küz",
+    "English": "Autumn",
+    "Definition": "autumn, fall season"
+  },
+  {
+    "Unit": "Basics",
+    "Lesson Title": "Months and Seasons",
+    "Uyghur": "küzgi",
+    "English": "Autumnal",
+    "Definition": "autumnal, autumn-planted"
+  },
+  {
+    "Unit": "Basics",
+    "Lesson Title": "Months and Seasons",
+    "Uyghur": "pesil ( possessive pesli)",
+    "English": "Season",
+    "Definition": "season; division, chapter"
+  },
+  {
+    "Unit": "Basics",
+    "Lesson Title": "Numbers",
+    "Uyghur": "alte",
+    "English": "Six",
+    "Definition": "six"
+  },
+  {
+    "Unit": "Basics",
+    "Lesson Title": "Numbers",
+    "Uyghur": "ash",
+    "English": "Increase/Exceed",
+    "Definition": "increase; exceed; leftover, remaining ashqan"
+  },
+  {
+    "Unit": "Basics",
+    "Lesson Title": "Numbers",
+    "Uyghur": "atmish",
+    "English": "Sixty",
+    "Definition": "sixty"
+  },
+  {
+    "Unit": "Basics",
+    "Lesson Title": "Numbers",
+    "Uyghur": "az",
+    "English": "Few",
+    "Definition": "few"
+  },
+  {
+    "Unit": "Basics",
+    "Lesson Title": "Numbers",
+    "Uyghur": "azraq",
+    "English": "Less/Fewer",
+    "Definition": "less, fewer, fairly little, fairly few"
+  },
+  {
+    "Unit": "Basics",
+    "Lesson Title": "Numbers",
+    "Uyghur": "besh",
+    "English": "Five",
+    "Definition": "five"
+  },
+  {
+    "Unit": "Basics",
+    "Lesson Title": "Numbers",
+    "Uyghur": "bir",
+    "English": "One",
+    "Definition": "one, once; a"
+  },
+  {
+    "Unit": "Basics",
+    "Lesson Title": "Numbers",
+    "Uyghur": "birinchi",
+    "English": "First",
+    "Definition": "first"
+  },
+  {
+    "Unit": "Basics",
+    "Lesson Title": "Numbers",
+    "Uyghur": "ellik",
+    "English": "Fifty",
+    "Definition": "fifty"
+  },
+  {
+    "Unit": "Basics",
+    "Lesson Title": "Numbers",
+    "Uyghur": "gram",
+    "English": "Gram",
+    "Definition": "gram (unit of weight)"
+  },
+  {
+    "Unit": "Basics",
+    "Lesson Title": "Numbers pt2",
+    "Uyghur": "hësapla",
+    "English": "Calculate",
+    "Definition": "calculate, count, compute"
+  },
+  {
+    "Unit": "Basics",
+    "Lesson Title": "Numbers pt2",
+    "Uyghur": "ikkinchi",
+    "English": "Second",
+    "Definition": "second"
+  },
+  {
+    "Unit": "Basics",
+    "Lesson Title": "Numbers pt2",
+    "Uyghur": "jiq",
+    "English": "Many",
+    "Definition": "much, many, lots"
+  },
+  {
+    "Unit": "Basics",
+    "Lesson Title": "Numbers pt2",
+    "Uyghur": "jüp",
+    "English": "Pair",
+    "Definition": "pair, couple"
+  },
+  {
+    "Unit": "Basics",
+    "Lesson Title": "Numbers pt2",
+    "Uyghur": "kilo",
+    "English": "Kilogram",
+    "Definition": "kilo, kilogram"
+  },
+  {
+    "Unit": "Basics",
+    "Lesson Title": "Numbers pt2",
+    "Uyghur": "kilomëtr (kilomëtir)",
+    "English": "Kilometer",
+    "Definition": "kilometer (common nonstand. spelling"
+  },
+  {
+    "Unit": "Basics",
+    "Lesson Title": "Numbers pt2",
+    "Uyghur": "ming",
+    "English": "Thousand",
+    "Definition": "thousand"
+  },
+  {
+    "Unit": "Basics",
+    "Lesson Title": "Numbers pt2",
+    "Uyghur": "nomur",
+    "English": "Number",
+    "Definition": "numeral; size; score"
+  },
+  {
+    "Unit": "Basics",
+    "Lesson Title": "Numbers pt2",
+    "Uyghur": "on bir",
+    "English": "Eleven",
+    "Definition": "eleven"
+  },
+  {
+    "Unit": "Basics",
+    "Lesson Title": "Pronouns and People Words",
+    "Uyghur": "ashu",
+    "English": "That",
+    "Definition": "that one (far from speaker)"
+  },
+  {
+    "Unit": "Basics",
+    "Lesson Title": "Pronouns and People Words",
+    "Uyghur": "bashqa",
+    "English": "Other",
+    "Definition": "other, another"
+  },
+  {
+    "Unit": "Basics",
+    "Lesson Title": "Pronouns and People Words",
+    "Uyghur": "biz",
+    "English": "We",
+    "Definition": "we"
+  },
+  {
+    "Unit": "Basics",
+    "Lesson Title": "Pronouns and People Words",
+    "Uyghur": "boway",
+    "English": "Sir",
+    "Definition": "elderly man, elder, gentleman; (address) Sir!"
+  },
+  {
+    "Unit": "Basics",
+    "Lesson Title": "Pronouns and People Words",
+    "Uyghur": "bu",
+    "English": "This",
+    "Definition": "this (close to speaker)"
+  },
+  {
+    "Unit": "Basics",
+    "Lesson Title": "Pronouns and People Words",
+    "Uyghur": "hëchkim",
+    "English": "No one",
+    "Definition": "nobody, no one"
+  },
+  {
+    "Unit": "Basics",
+    "Lesson Title": "Pronouns and People Words",
+    "Uyghur": "hemme",
+    "English": "All",
+    "Definition": "all, every"
+  },
+  {
+    "Unit": "Basics",
+    "Lesson Title": "Pronouns and People Words",
+    "Uyghur": "insan",
+    "English": "Human",
+    "Definition": "human being"
+  },
+  {
+    "Unit": "Basics",
+    "Lesson Title": "Pronouns and People Words",
+    "Uyghur": "kim",
+    "English": "Who",
+    "Definition": "who"
+  }
+]
