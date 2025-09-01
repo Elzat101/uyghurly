@@ -1,12 +1,14 @@
 "use client";
 
 import React, { createContext, useContext, useEffect, useState } from "react";
+import AsyncStorage from '@react-native-async-storage/async-storage';
 
 type FontSize = "small" | "medium" | "large";
 
 interface FontSizeContextType {
   fontSize: FontSize;
   setFontSize: (fontSize: FontSize) => void;
+  getFontSizeValue: () => number;
 }
 
 const FontSizeContext = createContext<FontSizeContextType | undefined>(
@@ -16,58 +18,50 @@ const FontSizeContext = createContext<FontSizeContextType | undefined>(
 export function FontSizeProvider({ children }: { children: React.ReactNode }) {
   const [fontSize, setFontSizeState] = useState<FontSize>("medium");
 
-  // Initialize font size from localStorage
+  // Initialize font size from AsyncStorage
   useEffect(() => {
-    const savedFontSize = localStorage.getItem(
-      "uyghurly-font-size"
-    ) as FontSize;
-    if (savedFontSize && ["small", "medium", "large"].includes(savedFontSize)) {
-      setFontSizeState(savedFontSize);
-    }
+    const loadFontSize = async () => {
+      try {
+        const savedFontSize = await AsyncStorage.getItem(
+          "uyghurly-font-size"
+        ) as FontSize;
+        if (savedFontSize && ["small", "medium", "large"].includes(savedFontSize)) {
+          setFontSizeState(savedFontSize);
+        }
+      } catch (error) {
+        console.error("Error loading font size:", error);
+      }
+    };
+
+    loadFontSize();
   }, []);
 
-  // Update font size and apply to document
-  const setFontSize = (newFontSize: FontSize) => {
+  // Update font size and save to AsyncStorage
+  const setFontSize = async (newFontSize: FontSize) => {
     setFontSizeState(newFontSize);
-    localStorage.setItem("uyghurly-font-size", newFontSize);
-
-    // Apply font size to document
-    const root = document.documentElement;
-    root.classList.remove("text-sm", "text-base", "text-lg");
-
-    switch (newFontSize) {
-      case "small":
-        root.classList.add("text-sm");
-        break;
-      case "medium":
-        root.classList.add("text-base");
-        break;
-      case "large":
-        root.classList.add("text-lg");
-        break;
+    try {
+      await AsyncStorage.setItem("uyghurly-font-size", newFontSize);
+    } catch (error) {
+      console.error("Error saving font size:", error);
     }
   };
 
-  // Apply font size to document on mount and when fontSize changes
-  useEffect(() => {
-    const root = document.documentElement;
-    root.classList.remove("text-sm", "text-base", "text-lg");
-
+  // Get numeric font size value for React Native styles
+  const getFontSizeValue = () => {
     switch (fontSize) {
       case "small":
-        root.classList.add("text-sm");
-        break;
+        return 14;
       case "medium":
-        root.classList.add("text-base");
-        break;
+        return 16;
       case "large":
-        root.classList.add("text-lg");
-        break;
+        return 18;
+      default:
+        return 16;
     }
-  }, [fontSize]);
+  };
 
   return (
-    <FontSizeContext.Provider value={{ fontSize, setFontSize }}>
+    <FontSizeContext.Provider value={{ fontSize, setFontSize, getFontSizeValue }}>
       {children}
     </FontSizeContext.Provider>
   );

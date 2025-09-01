@@ -1,6 +1,8 @@
 "use client";
 
 import React, { createContext, useContext, useEffect, useState } from "react";
+import AsyncStorage from '@react-native-async-storage/async-storage';
+import { useColorScheme } from 'react-native';
 
 type Theme = "light" | "dark" | "auto";
 
@@ -15,57 +17,51 @@ const ThemeContext = createContext<ThemeContextType | undefined>(undefined);
 export function ThemeProvider({ children }: { children: React.ReactNode }) {
   const [theme, setThemeState] = useState<Theme>("light");
   const [isDark, setIsDark] = useState(false);
+  const colorScheme = useColorScheme();
 
-  // Initialize theme from localStorage or system preference
+  // Initialize theme from AsyncStorage or system preference
   useEffect(() => {
-    const savedTheme = localStorage.getItem("uyghurly-theme") as Theme;
-    if (savedTheme) {
-      setThemeState(savedTheme);
-    } else {
-      // Check system preference
-      const systemPrefersDark = window.matchMedia(
-        "(prefers-color-scheme: dark)"
-      ).matches;
-      setThemeState(systemPrefersDark ? "dark" : "light");
-    }
-  }, []);
+    const loadTheme = async () => {
+      try {
+        const savedTheme = await AsyncStorage.getItem("uyghurly-theme") as Theme;
+        if (savedTheme) {
+          setThemeState(savedTheme);
+        } else {
+          // Check system preference
+          const systemPrefersDark = colorScheme === 'dark';
+          setThemeState(systemPrefersDark ? "dark" : "light");
+        }
+      } catch (error) {
+        console.error("Error loading theme:", error);
+        // Fallback to system preference
+        const systemPrefersDark = colorScheme === 'dark';
+        setThemeState(systemPrefersDark ? "dark" : "light");
+      }
+    };
 
-  // Update theme and apply to document
-  const setTheme = (newTheme: Theme) => {
+    loadTheme();
+  }, [colorScheme]);
+
+  // Update theme and save to AsyncStorage
+  const setTheme = async (newTheme: Theme) => {
     setThemeState(newTheme);
-    localStorage.setItem("uyghurly-theme", newTheme);
+    try {
+      await AsyncStorage.setItem("uyghurly-theme", newTheme);
+    } catch (error) {
+      console.error("Error saving theme:", error);
+    }
   };
 
-  // Apply theme to document
+  // Apply theme based on current setting
   useEffect(() => {
-    const root = document.documentElement;
-
     if (theme === "auto") {
-      const systemPrefersDark = window.matchMedia(
-        "(prefers-color-scheme: dark)"
-      ).matches;
+      const systemPrefersDark = colorScheme === 'dark';
       setIsDark(systemPrefersDark);
-      root.classList.toggle("dark", systemPrefersDark);
     } else {
       const shouldBeDark = theme === "dark";
       setIsDark(shouldBeDark);
-      root.classList.toggle("dark", shouldBeDark);
     }
-  }, [theme]);
-
-  // Listen for system theme changes when in auto mode
-  useEffect(() => {
-    if (theme === "auto") {
-      const mediaQuery = window.matchMedia("(prefers-color-scheme: dark)");
-      const handleChange = (e: MediaQueryListEvent) => {
-        setIsDark(e.matches);
-        document.documentElement.classList.toggle("dark", e.matches);
-      };
-
-      mediaQuery.addEventListener("change", handleChange);
-      return () => mediaQuery.removeEventListener("change", handleChange);
-    }
-  }, [theme]);
+  }, [theme, colorScheme]);
 
   return (
     <ThemeContext.Provider value={{ theme, setTheme, isDark }}>

@@ -8,6 +8,7 @@ import {
   signOut,
   onAuthStateChanged,
 } from "firebase/auth";
+import AsyncStorage from '@react-native-async-storage/async-storage';
 import { auth, googleProvider } from "@/lib/firebase";
 import { userService } from "@/lib/userService";
 
@@ -118,11 +119,16 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
           setUser(null);
         }
       } else {
-        // Check for guest user in localStorage
-        const savedUser = localStorage.getItem("uyghurly_guest_user");
-        if (savedUser) {
-          setUser(JSON.parse(savedUser));
-        } else {
+        // Check for guest user in AsyncStorage
+        try {
+          const savedUser = await AsyncStorage.getItem("uyghurly_guest_user");
+          if (savedUser) {
+            setUser(JSON.parse(savedUser));
+          } else {
+            setUser(null);
+          }
+        } catch (error) {
+          console.error("Error reading from AsyncStorage:", error);
           setUser(null);
         }
       }
@@ -410,7 +416,7 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
     }
   };
 
-  const loginAsGuest = () => {
+  const loginAsGuest = async () => {
     const guestUser: User = {
       id: "guest_" + Date.now(),
       name: "Guest User",
@@ -420,7 +426,11 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
     };
 
     setUser(guestUser);
-    localStorage.setItem("uyghurly_guest_user", JSON.stringify(guestUser));
+    try {
+      await AsyncStorage.setItem("uyghurly_guest_user", JSON.stringify(guestUser));
+    } catch (error) {
+      console.error("Error saving guest user to AsyncStorage:", error);
+    }
   };
 
   const logout = async () => {
@@ -429,8 +439,8 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
         // Sign out from Firebase
         await signOut(auth);
       }
-      // Clear guest user from localStorage
-      localStorage.removeItem("uyghurly_guest_user");
+      // Clear guest user from AsyncStorage
+      await AsyncStorage.removeItem("uyghurly_guest_user");
       setUser(null);
     } catch (error) {
       console.error("Logout failed:", error);
